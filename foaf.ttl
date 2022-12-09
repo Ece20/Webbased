@@ -1,0 +1,33 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://github.com/Ece20/Webbased/blob/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://github.com/Ece20/Webbased/blob/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://github.com/Ece20/Webbased/blob/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://github.com/Ece20/Webbased/blob/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Ece Ibraim" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Ece" ;
+  foaf:family_name "Ibraim" ;
+  foaf:nick "E" ;
+  foaf:mbox_sha1sum "25112d6737cbd508664faba566f6bc72cb209d17" ;
+  foaf:homepage <https://www.facebook.com/ece.ibraim> ;
+  foaf:phone <tel:078219167> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Demet Memis" ;
+    foaf:mbox_sha1sum "e2712af802568baf1a7edf110545f98bd917516a" ;
+    rdfs:seeAlso <https://www.facebook.com/demet.memis>
+  ], [
+    a foaf:Person ;
+    foaf:name "Kerem Kubur" ;
+    foaf:mbox_sha1sum "6ce8d1608bdc2893cbf5ad76f2fea47491c02b9c" ;
+    rdfs:seeAlso <https://www.facebook.com/kerem.kubur>
+  ] .

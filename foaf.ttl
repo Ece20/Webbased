@@ -2,14 +2,14 @@
 @prefix ns0: <http://webns.net/mvcb/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://github.com/Ece20/Webbased/blob/main/foaf.ttl>
+<https://raw.githubusercontent.com/Ece20/Webbased/main/foaf.ttl>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <https://github.com/Ece20/Webbased/blob/main/foaf.ttl#me> ;
-  foaf:primaryTopic <https://github.com/Ece20/Webbased/blob/main/foaf.ttl#me> ;
+  foaf:maker <https://raw.githubusercontent.com/Ece20/Webbased/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/Ece20/Webbased/main/foaf.ttl#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<https://github.com/Ece20/Webbased/blob/main/foaf.ttl#me>
+<https://raw.githubusercontent.com/Ece20/Webbased/main/foaf.ttl#me>
   a foaf:Person ;
   foaf:name "Ece Ibraim" ;
   foaf:title "Mrs" ;
